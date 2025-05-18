@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libExample.a CMakeFiles/Example.dir/mirror_control.cpp.o
+/usr/bin/ranlib.exe libExample.a

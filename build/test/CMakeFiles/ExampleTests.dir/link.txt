@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -o ExampleTests.exe -Wl,--out-implib,libExampleTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../lib/libgtest_main.a ../libExample.a ../lib/libgtest.a 
