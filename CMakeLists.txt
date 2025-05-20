@@ -20,13 +20,13 @@ FetchContent_MakeAvailable(googletest)
 
 
 set(Headers
-    Example.hpp
+    src/Example.hpp
 )
 
 set  (Sources
-	Example.cpp
-	mirror_selection.cpp
-	mirror_control.cpp
+	src/Example.cpp
+	src/mirror_selection.cpp
+	src/mirror_control.cpp
 	)
 	
 
