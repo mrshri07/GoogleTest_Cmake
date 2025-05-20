@@ -22,17 +22,14 @@ FetchContent_MakeAvailable(googletest)
 set(Headers
     Example.hpp
 )
-set(Sources
-    Example.cpp
-)
 
 set  (Sources
+	Example.cpp
 	mirror_selection.cpp
+	mirror_control.cpp
 	)
 	
-set  (Sources
-	mirror_control.cpp
-)
+
 
 add_library(${This} STATIC ${Sources} ${Headers})
 
