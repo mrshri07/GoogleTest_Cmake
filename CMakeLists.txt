@@ -33,5 +33,8 @@ set  (Sources
 
 add_library(${This} STATIC ${Sources} ${Headers})
 
+target_link_libraries(${This} PUBLIC Example)
+
+
 add_subdirectory(test)
 
