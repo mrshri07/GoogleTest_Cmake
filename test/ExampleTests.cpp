@@ -2,8 +2,10 @@
  
  
 extern "C" {
-#include "..src/Example.hpp"
+#include "src/Example.hpp"
 }
+
+//this path is changed
  
 // /* Mirror is UNFOLD*/
 // TEST(ExampleTests_T, mirror_fold)
