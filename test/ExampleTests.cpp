@@ -2,7 +2,7 @@
  
  
 extern "C" {
-#include "src/Example.hpp"
+#include "Example.hpp"
 }
 
 //this path is changed
