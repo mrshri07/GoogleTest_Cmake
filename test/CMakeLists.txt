@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.8)
 set(This ExampleTests)
 
 set(Sources
-   test/ExampleTests.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/ExampleTests.cpp
 )
 
 add_executable(${This} ${Sources})
