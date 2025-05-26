@@ -36,3 +36,5 @@ mirror_control()
  
     return 0;
 }
+
+//added new lines
